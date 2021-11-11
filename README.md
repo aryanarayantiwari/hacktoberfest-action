@@ -44,7 +44,7 @@ hacktoberfest: 'hack/*'
 hacktoberfest-accepted: 'hack/*'
 ```
 
-Then if a pull request is opened with the branch name `hack/218-add-emoji-support` the Action will automatically apply the `hacktoberfest` and `hacktoberfest-acccepted` label once the PR is merged.
+Then if a pull request is merged and closed with the branch name `hack/218-add-emoji-support` the Action will automatically apply the `hacktoberfest` and `hacktoberfest-acccepted` label once the PR is merged.
 
 ### Wildcard branches in configuration
 
